@@ -1,0 +1,68 @@
+* {
+  color: #6e7a5b;
+  font-size: 1.2rem;
+}
+
+.container {
+  background-color: #f7eb80;
+  border: 1px solid rgb(240.9555555556, 219.8888888889, 32.0444444444);
+  display: flex;
+  height: 500px;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 1em;
+  width: 50%;
+}
+.container .left {
+  background-color: #fff;
+  height: 100%;
+  width: 69%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.container .left p {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 1em;
+}
+.container .right {
+  background-color: #fff;
+  height: 100%;
+  position: relative;
+  width: 29%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.container .right p {
+  margin-bottom: 2em;
+  font-size: 1.3rem;
+}
+.container .right .button {
+  background-color: #dcf829;
+  color: #6e7a5b;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 7em;
+  height: 2.5em;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5em 2em;
+  transition: all 0.3s ease;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -120%);
+}
+.container .right .button:hover {
+  background-color: rgb(200.3076923077, 230.4615384615, 7.5384615385);
+  transform: translate(-50%, -120%) scale(1.05);
+}
+
+/*# sourceMappingURL=styles.css.map */
